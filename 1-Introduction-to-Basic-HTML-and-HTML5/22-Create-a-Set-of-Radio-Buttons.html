@@ -1,0 +1,32 @@
+<!-- Learned to create radio buttons which allows the user to select one of multiple options using type="radio". Only allows for one choice to be selected at a time. -->
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+
+  <label for ="indoor">
+    <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+  </label>
+  <label for="outdoor">
+    <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+  </label>
+  </form>
+</main>
