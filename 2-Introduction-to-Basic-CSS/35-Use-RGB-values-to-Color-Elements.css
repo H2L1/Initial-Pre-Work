@@ -1,0 +1,7 @@
+/* Learned that CSS takes a RGB color input in the format of rgb(x, x, x) */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

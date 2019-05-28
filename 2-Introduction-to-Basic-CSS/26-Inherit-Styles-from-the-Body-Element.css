@@ -1,0 +1,11 @@
+/* LEarned that the inherent body element of every HTML page can be styled with all CSS properties/attributes/etc */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+</style>
+
+<h1>Hello World</h1>

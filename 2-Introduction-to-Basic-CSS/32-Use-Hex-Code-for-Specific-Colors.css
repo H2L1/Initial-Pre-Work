@@ -1,0 +1,7 @@
+/* Learned that CSS accepts hexidecimal values to specify colors. Probably makes it so that you can declare a color with more accuracy than with words. At least it will be easier to look up a certain color and find it's hex value */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

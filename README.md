@@ -4,15 +4,15 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+The client (your computer) checks with the server it believes the URL is located at. The server checks to see if that domain is hosted on it. If it is, then your website will pull up, if not, then the server will send out requests to other server to see if it can find where the URL you want is located. Once it finds the host server, the first server saves the URL location in it's memory incase another client wants to know where that URL is hosted. This prevents the first server from having to ask around again.
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+
 
 ## What code is rendered in the browser?
 
-put your answer here
+HTML, CCS, and Javascript.
 
 ## What is the server-side code’s main function?
 

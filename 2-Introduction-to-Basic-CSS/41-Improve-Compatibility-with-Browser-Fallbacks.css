@@ -1,0 +1,14 @@
+/* Learned how to set up fall back options for various browers types to address compatiblity issues, at least with background color */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

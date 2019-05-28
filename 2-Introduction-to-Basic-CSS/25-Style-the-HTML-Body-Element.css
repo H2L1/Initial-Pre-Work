@@ -1,0 +1,8 @@
+/* LEarned that the body element is an inherent property of html, therefore you don't have to call it, you can simply modify it */
+
+<style>
+  body {
+    background-color: black;
+  }
+
+</style>
