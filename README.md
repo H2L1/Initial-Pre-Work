@@ -8,7 +8,7 @@ The client (your computer) checks with the server it believes the URL is located
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-
+I think this is the same as the first answer.
 
 ## What code is rendered in the browser?
 
@@ -16,24 +16,24 @@ HTML, CCS, and Javascript.
 
 ## What is the server-side code’s main function?
 
-put your answer here
+I think it's to handle the request the client has sent the server to view a webpage for instance.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+To take the code that it was given from the server side and execute it in a user friendly format.
 
 ## What is runtime?
 
-put your answer here
+The total time from when a program starts all the way to when it ends.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+There is a new instance each time the client gets a response from the server.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+As many as are needed to handle the client's request. I'm not really sure what this is asking for to be honest. I'm reading about scripts that handle the client's request for a webpage and when a page is posted back to the website. Not sure as to how many instances there are. I think there is an instance every time there is a post back to the server.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+I'm not sure. Is a new one created each time a client calls information from the database? I'm reading that database instances are like partitioned sections of your hard drive that you have a different OS on, but instead of OS the different database instance is a complete database environment that can be used for a different purpose, like storing the information from on department separate from another department's database.  https://www.lifewire.com/database-instance-1019612
